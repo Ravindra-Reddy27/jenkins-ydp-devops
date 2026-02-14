@@ -11,5 +11,10 @@ class cse_rocksTest {
 		int result = cal.add(2,3);
 		assertEquals(5,result);
 	}
+	@Test
+	void test2() {
+		int result = cal.sub(3,3);
+		assertEquals(0,result);
+	}
 
 }
